@@ -31,3 +31,16 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+.env*
+.env
+
+.DS_Store
+**/.DS_Store
+
+docker-compose.yml
+
+# Ignore the redis dump.rdb file
+dump.rdb
+
+.byebug_history

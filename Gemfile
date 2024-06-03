@@ -45,3 +45,41 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+gem 'dotenv'
+gem 'pg'
+
+gem 'acts-as-taggable-on', '~> 9.0'
+gem 'annotate'
+gem 'by_star'
+gem 'devise'
+gem 'devise-jwt'
+gem 'rest-client'
+gem 'rolify'
+
+gem 'api-pagination'
+gem 'kaminari'
+
+gem 'azure-storage-blob', require: false
+
+gem 'noticed'
+gem 'sidekiq'
+gem 'sidekiq-scheduler'
+
+gem 'paper_trail'
+
+gem 'redcarpet'
+gem 'rubocop', require: false
+
+gem 'addressable'
+
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-rails_csrf_protection'
+
+gem 'net-scp'
+gem 'net-ssh'
+gem 'net-ssh-gateway'
+gem 'wannabe_bool' # 1, '1', 'T', true, "true" 都可以 to_b
+
+gem 'google-api-client'
