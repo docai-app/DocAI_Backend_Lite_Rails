@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  title: MyString
+  description: MyString
+  cover_image: MyString
+  file_type: MyString
+  file_url: MyString
+  file_size: 1
+  user_marketplace_item: one
+  meta: 
+  file_content: MyText
+
+two:
+  user: two
+  title: MyString
+  description: MyString
+  cover_image: MyString
+  file_type: MyString
+  file_url: MyString
+  file_size: 1
+  user_marketplace_item: two
+  meta: 
+  file_content: MyText
