@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-class UserMarketplaceItemTest < ActiveSupport::TestCase
+class MarketplaceItemTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

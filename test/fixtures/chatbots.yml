@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  user: one
+  category: 1
+  meta: 
+  source: 
+  is_public: false
+  expired_at: 2024-06-03 15:39:40
+  access_count: 1
+  object_type: MyString
+  object_id: 
+  assistive_questions: 
+  has_chatbot_updated: false
+  energy_cost: 1
+  dify_token: MyString
+
+two:
+  name: MyString
+  description: MyString
+  user: two
+  category: 1
+  meta: 
+  source: 
+  is_public: false
+  expired_at: 2024-06-03 15:39:40
+  access_count: 1
+  object_type: MyString
+  object_id: 
+  assistive_questions: 
+  has_chatbot_updated: false
+  energy_cost: 1
+  dify_token: MyString

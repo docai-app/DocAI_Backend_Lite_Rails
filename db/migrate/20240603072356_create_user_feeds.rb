@@ -1,12 +1,14 @@
+# frozen_string_literal: true
+
 class CreateUserFeeds < ActiveRecord::Migration[7.0]
   def change
     create_table :user_feeds, id: :uuid do |t|
       t.uuid :user_id, null: false
-      t.string :title, default: ""
-      t.string :description, default: ""
-      t.string :cover_image, default: ""
+      t.string :title, default: ''
+      t.string :description, default: ''
+      t.string :cover_image, default: ''
       t.string :file_type, null: false
-      t.string :file_url, default: ""
+      t.string :file_url, default: ''
       t.integer :file_size, default: 0
       t.uuid :user_marketplace_item_id
       t.jsonb :meta

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateUserFiles < ActiveRecord::Migration[7.0]
   def change
     create_table :user_files, id: :uuid do |t|
@@ -5,7 +7,7 @@ class CreateUserFiles < ActiveRecord::Migration[7.0]
       t.string :file_type, null: false
       t.string :file_url
       t.integer :file_size, default: 0, null: false
-      t.string :title, default: ""
+      t.string :title, default: ''
       t.uuid :user_marketplace_item_id
       t.jsonb :meta
 
