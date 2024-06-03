@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  user_type: User
+  marketplace_item: one
+  purchased_at: 2024-06-03 15:45:14
+  meta: 
+
+two:
+  user: two
+  user_type: User
+  marketplace_item: two
+  purchased_at: 2024-06-03 15:45:14
+  meta: 
