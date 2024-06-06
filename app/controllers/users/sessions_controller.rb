@@ -15,8 +15,6 @@ module Users
     private
 
     def respond_with(resource, _opts = {})
-      puts "current tenant: #{Apartment::Tenant.current}"
-      puts "resource: #{resource.inspect}"
       resource.persisted? ? login_success : login_failed
       # render json: { success: true, message: "Logged.", user: resource }, status: :ok
     end
