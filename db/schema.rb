@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_06_03_074810) do
+ActiveRecord::Schema[7.0].define(version: 2024_06_06_071707) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -55,6 +55,14 @@ ActiveRecord::Schema[7.0].define(version: 2024_06_03_074810) do
     t.datetime "updated_at", null: false
     t.index ["marketplace_item_id"], name: "index_energy_consumption_records_on_marketplace_item_id"
     t.index ["user_id"], name: "index_energy_consumption_records_on_user_id"
+  end
+
+  create_table "jwt_denylists", force: :cascade do |t|
+    t.string "jti"
+    t.datetime "exp"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["jti"], name: "index_jwt_denylists_on_jti"
   end
 
   create_table "marketplace_items", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
